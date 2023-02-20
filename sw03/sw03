@@ -1,49 +1,34 @@
-! Command: show running-config
-! device: switch01 (cEOSLab, EOS-4.29.2F-30640700.4292F (engineering build))
+hostname ceos3
 !
-no aaa root
+username arista privilege 15 secret 0 arista
 !
-transceiver qsfp default-mode 4x10G
-!
-service routing protocols model ribd
-!
-agent Bfd shutdown
-agent PowerManager shutdown
-agent LedPolicy shutdown
-agent Thermostat shutdown
-agent PowerFuse shutdown
-agent StandbyCpld shutdown
-agent LicenseManager shutdown
-!
-hostname switch01
-!
-spanning-tree mode mstp
-!
-management api http-commands
-   protocol http
-   no shutdown
+ip access-list GNMI
+   10 permit tcp any any eq gnmi
 !
 management api gnmi
-   transport grpc eos
+   transport grpc def
+      ip access-group GNMI
    provider eos-native
 !
-management api netconf
-   transport ssh default
-!
-interface Ethernet1
+interface ethernet 2
+   no shutdown
    no switchport
-   ip address 192.168.100.30/24
+   description "docker network net2 **** ceos2 ethernet3"
+   ip address 10.0.0.3/31
 !
-interface Ethernet2
+interface ethernet 3
+   no shutdown
    no switchport
-   ip address 192.168.200.30/24
+   description "docker network net3 **** ceos1 ethernet3"
+   ip address 10.0.0.4/31
 !
-ip access-list copp
-   10 permit ip any any
-!
-ip access-list lab
-   10 permit ip any any
+interface loopback 0
+   ip address 3.3.3.3/32
 !
 ip routing
 !
-end
+router bgp 65003
+   router-id 3.3.3.3
+   neighbor 10.0.0.2 remote-as 65002
+   neighbor 10.0.0.5 remote-as 65001
+   redistribute connected
