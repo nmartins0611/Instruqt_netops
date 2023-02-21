@@ -13,13 +13,13 @@ management api gnmi
 interface ethernet 2
    no shutdown
    no switchport 
-   description  "docker network net1 **** ceos2 ethernet2"
+   description  "Net1 -- CEOS2 Switch Eth 2"
    ip address 10.0.0.0/31
 !
 interface ethernet 3
    no shutdown
    no switchport
-   description "docker network net3 **** ceos3 ethernet3"
+   description "Net3 -- CEOS3 Switch Eth 3"
    ip address 10.0.0.5/31
 !
 interface loopback 0
