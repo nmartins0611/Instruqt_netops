@@ -1,6 +1,7 @@
 hostname ceos1
 !
 username arista privilege 15 secret 0 arista
+username ansible secret sha512 $6$tX8ASYoJld.p39Bv$EUeR4hTzSVxlTvf.3LC8zsPy6.S2xqHDHaeethE2YulBUCEDgI7F8sEGy45c1LxIC.zo.Wh.8zYiIhb3zOn4N0
 !
 ip access-list GNMI
    10 permit tcp any any eq gnmi
