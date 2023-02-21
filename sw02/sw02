@@ -4,7 +4,7 @@ username arista privilege 15 secret 0 arista
 !
 ip access-list GNMI
    10 permit tcp any any eq gnmi
-!
+!   
 management api http-commands
    protocol http
    no shutdown
