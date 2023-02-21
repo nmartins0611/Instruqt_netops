@@ -5,10 +5,16 @@ username arista privilege 15 secret 0 arista
 ip access-list GNMI
    10 permit tcp any any eq gnmi
 !
+management api http-commands
+   protocol http
+   no shutdown
+!
 management api gnmi
-   transport grpc def
-      ip access-group GNMI
+   transport grpc eos
    provider eos-native
+!
+management api netconf
+   transport ssh default
 !
 interface ethernet 2
    no shutdown 
