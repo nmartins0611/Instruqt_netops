@@ -1,0 +1,7 @@
+[switches]
+ceos1 ansible_host=podman-host ansible_port=2001 ansible_connection=ansible.netcommon.network_cli ansible_network_os=arista.eos.eos ansible_user=ansible ansible_password=ansible ansible_become=yes ansible_become_method=enable
+ceos2 ansible_host=podman-host ansible_port=2002 ansible_connection=ansible.netcommon.network_cli ansible_network_os=arista.eos.eos ansible_user=ansible ansible_password=ansible ansible_become=yes ansible_become_method=enable
+ceos3 ansible_host=podman-host ansible_port=2003 ansible_connection=ansible.netcommon.network_cli ansible_network_os=arista.eos.eos ansible_user=ansible ansible_password=ansible ansible_become=yes ansible_become_method=enable
+
+[switches:vars]
+ansible_connection=ansible.netcommon.network_cli ansible_network_os=arista.eos.eos ansible_user=ansible ansible_password=ansible ansible_become=yes ansible_become_method=enable
