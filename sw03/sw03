@@ -2,6 +2,7 @@ hostname ceos3
 !
 username arista privilege 15 secret 0 arista
 username ansible secret sha512 $6$tX8ASYoJld.p39Bv$EUeR4hTzSVxlTvf.3LC8zsPy6.S2xqHDHaeethE2YulBUCEDgI7F8sEGy45c1LxIC.zo.Wh.8zYiIhb3zOn4N0
+username ansible ssh-key ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDtL6BqsiHsRvga+akeX1W2aPNYc/4OvKrmD5NFM3oydlMHfV9T6AXl92q2SMCrcspmTGZdngsAZ7r4PfWTs77euDfy9L/5q6+iqhPgS0zAcsK0ScRf60ct347TCW66+h++cS5vMSUcOU1fevLhsRw8tz2GdDb1pmqUYHUv1pLaeZiBLwnONKS33j8vsgrMbZ3ArkDFl2+Yu3dLs2inGXx6DZX4XE1725ZmEK6KiM9zo5qaSgRs/ONtCLMoU70qj/RZFtfTdtTPlsWUNo5tXYsxlIIg//6aCL/bZyMhwy2ccnAzcGxmi52fzG/R8hoiPdVd06zOaMJdY0VhG87T5Kt8O7Sh7Gw1fX+b3H/+DVHDrk3UUslXWmMTQ6C4frjtxIZlG1gwX0ThnEP+mXnrz1ieKZbA5rmaeo2uAld2zYQ/U2qPHqiha9f+FFPL8w+DPmU3L260EaNjnbsexqgEBAxDJ1iPmvV3mXrR8DrFXI8s8wpf7cK1HMbXssVL8JeAFL0= root@ansiblerulebook
 !
 ip access-list GNMI
    10 permit tcp any any eq gnmi
