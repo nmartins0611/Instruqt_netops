@@ -8,3 +8,28 @@
     kafka-console-consumer --topic network --from-beginning --bootstrap-server broker:9092
     
     show ip bgp summary vrf all
+
+
+Failure:
+
+
+{"fields":{"neighbor/state/messages/received/UPDATE":8,"neighbor/state/messages/sent/NOTIFICATION":1,"neighbor/state/messages/sent/UPDATE":8},"name":"ceos1","tags":{"/network-instances/network-instance/protocols/protocol/name":"BGP","host":"podman-host","identifier":"BGP","name":"default","neighbor_address":"10.0.0.4","path":"/network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state","source":"localhost"},"timestamp":1681932275}
+
+{"fields":{"neighbor/afi_safis/afi_safi/state/prefixes/best_paths":2,"neighbor/afi_safis/afi_safi/state/prefixes/sent":5},"name":"ceos1","tags":{"/network-instances/network-instance/protocols/protocol/name":"BGP","afi_safi_name":"IPV4_UNICAST","host":"podman-host","identifier":"BGP","name":"default","neighbor_address":"10.0.0.4","path":"/network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state","source":"localhost"},"timestamp":1681932275}
+
+{"fields":{"neighbor/state/messages/received/last_notification_time":1681931934428424960,"neighbor/state/messages/sent/last_notification_time":1681932436428425472},"name":"ceos1","tags":{"/network-instances/network-instance/protocols/protocol/name":"BGP","host":"podman-host","identifier":"BGP","name":"default","neighbor_address":"10.0.0.4","path":"/network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state","source":"localhost"},"timestamp":1681932436}
+
+{"fields":{"neighbor/state/session_state":"IDLE"},"name":"ceos1","tags":{"/network-instances/network-instance/protocols/protocol/name":"BGP","host":"podman-host","identifier":"BGP","name":"default","neighbor_address":"10.0.0.4","path":"/network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state","source":"localhost"},"timestamp":1681932436}
+
+{"fields":{"neighbor/state/last_established":1681932436428425216},"name":"ceos1","tags":{"/network-instances/network-instance/protocols/protocol/name":"BGP","host":"podman-host","identifier":"BGP","name":"default","neighbor_address":"10.0.0.4","source":"localhost"},"timestamp":1681932436}
+
+{"fields":{"neighbor/transport/state/remote_port":0},"name":"ceos1","tags":{"/network-instances/network-instance/protocols/protocol/name":"BGP","host":"podman-host","identifier":"BGP","name":"default","neighbor_address":"10.0.0.4","path":"/network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state","source":"localhost"},"timestamp":1681932436}
+
+{"fields":{"neighbor/state/neighbor_port":0},"name":"ceos1","tags":{"/network-instances/network-instance/protocols/protocol/name":"BGP","host":"podman-host","identifier":"BGP","name":"default","neighbor_address":"10.0.0.4","source":"localhost"},"timestamp":1681932436}
+
+{"fields":{"neighbor/state/messages/sent/UPDATE":11},"name":"ceos1","tags":{"/network-instances/network-instance/protocols/protocol/name":"BGP","host":"podman-host","identifier":"BGP","name":"default","neighbor_address":"10.0.0.1","path":"/network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state","source":"localhost"},"timestamp":1681932440}
+
+
+Reconnect:
+
+{"fields":{"neighbor/afi_safis/afi_safi/state/prefixes/sent":0},"name":"ceos1","tags":{"/network-instances/network-instance/protocols/protocol/name":"BGP","afi_safi_name":"IPV4_UNICAST","host":"podman-host","identifier":"BGP","name":"default","neighbor_address":"10.0.0.4","source":"localhost"},"timestamp":1681932440}
