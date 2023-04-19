@@ -1,0 +1,8 @@
+ [[inputs.gnmi.subscription]]
+    name = "BGP Neighbours on CEOS1"
+    origin = "openconfig"
+    subscription_mode = "sample"
+    path = "/network-instances/network-instance[name=default]/protocols/protocol[name=BGP]/bgp/neighbors"
+    sample_interval = "3s"
+    
+    kafka-console-consumer --topic network --from-beginning --bootstrap-server broker:9092
