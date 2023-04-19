@@ -6,3 +6,5 @@
     sample_interval = "3s"
     
     kafka-console-consumer --topic network --from-beginning --bootstrap-server broker:9092
+    
+    show ip bgp summary vrf all
