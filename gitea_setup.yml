@@ -30,7 +30,7 @@
         method: POST
         body_format: json
         body:
-          name: terraform_lab
+          name: leaf
           auto_init: false
           private: false
         force_basic_auth: true
@@ -40,7 +40,7 @@
 
     - name: Create repo dir
       ansible.builtin.file:
-        path: "/tmp/terraform_lab"
+        path: "/tmp/leaf"
         state: directory
         mode: 0755
 
