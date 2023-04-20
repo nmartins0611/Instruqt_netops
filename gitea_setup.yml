@@ -88,10 +88,10 @@
         scope: global
         value: "{{ ansible_user }}@local"
 
-#    - name: Extract initial repo files
-#      ansible.builtin.unarchive:
-#        src: /tmp/setup-scripts/terraform-ansible/files/terraform_files.tar.gz
-#        dest: "/tmp/leaf/"
+    - name: Extract initial repo files
+      ansible.builtin.unarchive:
+        src: /tmp/
+        dest: "/tmp/leaf/"
 
     - name: Grab the rsa
       ansible.builtin.set_fact:
