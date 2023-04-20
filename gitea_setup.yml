@@ -1,0 +1,117 @@
+# Gitea config
+- name: Configure Gitea host
+  hosts: gitea
+  gather_facts: false
+  become: true
+  tags:
+    - gitea-config
+
+  tasks:
+    - name: Install python3 Gitea
+      ansible.builtin.raw: /sbin/apk add python3
+
+    - name: Install Gitea packages
+      community.general.apk:
+        name: subversion, tar
+        state: present
+
+    - name: Create repo users
+      ansible.builtin.command: "{{ item }}"
+      become_user: git
+      register: __output
+      failed_when: __output.rc not in [ 0, 1 ]
+      changed_when: '"user already exists" not in __output.stdout'
+      loop:
+        - "/usr/local/bin/gitea admin user create --admin --username {{ student_user }} --password {{ student_password }} --must-change-password=false --email {{ student_user }}@localhost"
+
+
+    - name: Create repo for project 
+      ansible.builtin.uri:
+        url: http://gitea:3000/api/v1/user/repos
+        method: POST
+        body_format: json
+        body:
+          name: terraform_lab
+          auto_init: false
+          private: false
+        force_basic_auth: true
+        url_password: "{{ student_password }}"
+        url_username: "{{ student_user }}"
+        status_code: [201, 409]
+
+    - name: Create repo dir
+      ansible.builtin.file:
+        path: "/tmp/terraform_lab"
+        state: directory
+        mode: 0755
+
+    - name: Configure git to use main repo by default
+      community.general.git_config:
+        name: init.defaultBranch
+        scope: global
+        value: main
+      tags:
+        - git
+
+    - name: Initialise track repo
+      ansible.builtin.command:
+        cmd: /usr/bin/git init
+        chdir: "/tmp/terraform_lab"
+        creates: "/terraform_lab/.git" 
+
+    - name: Configure git to store credentials
+      community.general.git_config:
+        name: credential.helper
+        scope: global
+        value: store --file /tmp/git-creds
+
+    - name: Configure repo dir as git safe dir
+      community.general.git_config:
+        name: safe.directory
+        scope: global
+        value: "/tmp/terraform_lab"
+
+    - name: Store repo credentials in git-creds file
+      ansible.builtin.copy:
+        dest: /tmp/git-creds
+        mode: 0644
+        content: "http://{{ student_user }}:{{ student_password }}@{{ 'gitea:3000' | urlencode }}"
+
+    - name: Configure git username
+      community.general.git_config:
+        name: user.name
+        scope: global
+        value: "{{ ansible_user }}"
+
+    - name: Configure git email address
+      community.general.git_config:
+        name: user.email
+        scope: global
+        value: "{{ ansible_user }}@local"
+
+    - name: Extract initial repo files
+      ansible.builtin.unarchive:
+        src: /tmp/setup-scripts/terraform-ansible/files/terraform_files.tar.gz
+        dest: "/tmp/terraform_lab/"
+
+    - name: Grab the rsa
+      ansible.builtin.set_fact:
+        controller_ssh: "{{ lookup('file', '/home/rhel/.ssh/id_rsa.pub') }}"
+
+    - name: Create cloud-init for lab
+      template:
+        src: cloud-init.j2
+        dest: /tmp/terraform_lab/cloud-init.conf
+
+    - name: Add remote origin to repo
+      ansible.builtin.command:
+        cmd: "{{ item }}"
+        chdir: "/tmp/terraform_lab"   
+      register: __output
+      changed_when: __output.rc == 0
+      loop:
+        - "git remote add origin http://gitea:3000/{{ student_user }}/terraform_lab.git"
+        - "git checkout -b main"
+        - "git add ."
+        - "git commit -m'Initial commit'"
+        - "git push -u origin main --force"
