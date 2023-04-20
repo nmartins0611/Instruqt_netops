@@ -1,0 +1,22 @@
+---
+- name: Connecting to Leaf
+  hosts: switch
+  connection: local
+  gather_facts: false
+
+  tasks:
+
+    - name: Download Network Config from Source of Truth
+      ansible.builtin.git:
+      # repo: http://nmartins0611:yT7C8k8Pypwa_Q8yL_Kz@gitlab.prometheus.io/nmartins0611/aws_terraform_builds.git
+       repo: http://gitlab.prometheus.io/nmartins0611/arista_sot.git
+       dest: /tmp/srv
+       clone: yes
+
+    - name: Restoring Configuration of Interfaces
+      include_vars: /tmp/srv/arista_desired.yml
+
+    - name: Merge Configurations
+      arista.eos.eos_l2_interfaces:
+       config: "{{ my_sot }}"
+       state: merged
