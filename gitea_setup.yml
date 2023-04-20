@@ -24,7 +24,6 @@
       loop:
         - "/usr/local/bin/gitea admin user create --admin --username {{ student_user }} --password {{ student_password }} --must-change-password=false --email {{ student_user }}@localhost"
 
-
     - name: Create repo for project 
       ansible.builtin.uri:
         url: http://gitea:3000/api/v1/user/repos
@@ -56,8 +55,8 @@
     - name: Initialise track repo
       ansible.builtin.command:
         cmd: /usr/bin/git init
-        chdir: "/tmp/terraform_lab"
-        creates: "/terraform_lab/.git" 
+        chdir: "/tmp/leaf"
+        creates: "/leaf/.git" 
 
     - name: Configure git to store credentials
       community.general.git_config:
@@ -69,7 +68,7 @@
       community.general.git_config:
         name: safe.directory
         scope: global
-        value: "/tmp/terraform_lab"
+        value: "/tmp/leaf"
 
     - name: Store repo credentials in git-creds file
       ansible.builtin.copy:
@@ -89,28 +88,23 @@
         scope: global
         value: "{{ ansible_user }}@local"
 
-    - name: Extract initial repo files
-      ansible.builtin.unarchive:
-        src: /tmp/setup-scripts/terraform-ansible/files/terraform_files.tar.gz
-        dest: "/tmp/terraform_lab/"
+#    - name: Extract initial repo files
+#      ansible.builtin.unarchive:
+#        src: /tmp/setup-scripts/terraform-ansible/files/terraform_files.tar.gz
+#        dest: "/tmp/leaf/"
 
     - name: Grab the rsa
       ansible.builtin.set_fact:
         controller_ssh: "{{ lookup('file', '/home/rhel/.ssh/id_rsa.pub') }}"
 
-    - name: Create cloud-init for lab
-      template:
-        src: cloud-init.j2
-        dest: /tmp/terraform_lab/cloud-init.conf
-
     - name: Add remote origin to repo
       ansible.builtin.command:
         cmd: "{{ item }}"
-        chdir: "/tmp/terraform_lab"   
+        chdir: "/tmp/leaf"   
       register: __output
       changed_when: __output.rc == 0
       loop:
-        - "git remote add origin http://gitea:3000/{{ student_user }}/terraform_lab.git"
+        - "git remote add origin http://gitea:3000/{{ student_user }}/leaf.git"
         - "git checkout -b main"
         - "git add ."
         - "git commit -m'Initial commit'"
