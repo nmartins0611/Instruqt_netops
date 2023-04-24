@@ -1,0 +1,4787 @@
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327292337053668,
+  "time": "2023-04-24T09:08:12.337053668Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/best-paths",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/best-paths": 3
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282949023011,
+  "time": "2023-04-24T09:08:02.949023011Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/global/config",
+  "updates": [
+    {
+      "Path": "as",
+      "values": {
+        "as": 65001
+      }
+    },
+    {
+      "Path": "router-id",
+      "values": {
+        "router-id": "1.1.1.1"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282949023011,
+  "time": "2023-04-24T09:08:02.949023011Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/global/state/as",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/global/state/as": 65001
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327287337514114,
+  "time": "2023-04-24T09:08:07.337514114Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/global/state/router-id",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/global/state/router-id": "1.1.1.1"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "openconfig-bgp-types:IPV4_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "openconfig-bgp-types:IPV4_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/graceful-restart/state",
+  "updates": [
+    {
+      "Path": "advertised",
+      "values": {
+        "advertised": false
+      }
+    },
+    {
+      "Path": "received",
+      "values": {
+        "received": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit-received/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit-received/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit-received/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "openconfig-bgp-types:IPV4_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/best-ecmp-paths",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/best-ecmp-paths": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327292337053668,
+  "time": "2023-04-24T09:08:12.337053668Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/sent",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/sent": 5
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327297338184479,
+  "time": "2023-04-24T09:08:17.338184479Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state",
+  "updates": [
+    {
+      "Path": "prefixes/installed",
+      "values": {
+        "prefixes/installed": 4
+      }
+    },
+    {
+      "Path": "prefixes/received",
+      "values": {
+        "prefixes/received": 4
+      }
+    },
+    {
+      "Path": "prefixes/received-pre-policy",
+      "values": {
+        "prefixes/received-pre-policy": 4
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327292337053668,
+  "time": "2023-04-24T09:08:12.337053668Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/sent",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/sent": 4
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "openconfig-bgp-types:IPV6_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "openconfig-bgp-types:IPV6_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/graceful-restart/state",
+  "updates": [
+    {
+      "Path": "advertised",
+      "values": {
+        "advertised": false
+      }
+    },
+    {
+      "Path": "received",
+      "values": {
+        "received": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "openconfig-bgp-types:L2VPN_EVPN"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit-received/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "openconfig-bgp-types:L2VPN_EVPN"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit-received/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/graceful-restart/state",
+  "updates": [
+    {
+      "Path": "advertised",
+      "values": {
+        "advertised": false
+      }
+    },
+    {
+      "Path": "received",
+      "values": {
+        "received": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "openconfig-bgp-types:L2VPN_EVPN"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "openconfig-bgp-types:IPV6_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/state",
+  "updates": [
+    {
+      "Path": "prefixes/best-ecmp-paths",
+      "values": {
+        "prefixes/best-ecmp-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/best-paths",
+      "values": {
+        "prefixes/best-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/installed",
+      "values": {
+        "prefixes/installed": 0
+      }
+    },
+    {
+      "Path": "prefixes/received",
+      "values": {
+        "prefixes/received": 0
+      }
+    },
+    {
+      "Path": "prefixes/received-pre-policy",
+      "values": {
+        "prefixes/received-pre-policy": 0
+      }
+    },
+    {
+      "Path": "prefixes/sent",
+      "values": {
+        "prefixes/sent": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "arista-bgp-augments:IPV4_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/state",
+  "updates": [
+    {
+      "Path": "prefixes/best-ecmp-paths",
+      "values": {
+        "prefixes/best-ecmp-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/best-paths",
+      "values": {
+        "prefixes/best-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/installed",
+      "values": {
+        "prefixes/installed": 0
+      }
+    },
+    {
+      "Path": "prefixes/received",
+      "values": {
+        "prefixes/received": 0
+      }
+    },
+    {
+      "Path": "prefixes/received-pre-policy",
+      "values": {
+        "prefixes/received-pre-policy": 0
+      }
+    },
+    {
+      "Path": "prefixes/sent",
+      "values": {
+        "prefixes/sent": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "openconfig-bgp-types:L2VPN_EVPN"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "arista-bgp-augments:IPV4_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "openconfig-bgp-types:L2VPN_EVPN"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state",
+  "updates": [
+    {
+      "Path": "queues/input",
+      "values": {
+        "queues/input": 0
+      }
+    },
+    {
+      "Path": "queues/output",
+      "values": {
+        "queues/output": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state",
+  "updates": [
+    {
+      "Path": "peer-as",
+      "values": {
+        "peer-as": 65003
+      }
+    },
+    {
+      "Path": "peer-type",
+      "values": {
+        "peer-type": "EXTERNAL"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/graceful-restart/state",
+  "updates": [
+    {
+      "Path": "advertised",
+      "values": {
+        "advertised": false
+      }
+    },
+    {
+      "Path": "received",
+      "values": {
+        "received": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit-received/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "arista-bgp-augments:IPV4_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "openconfig-bgp-types:IPV6_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "arista-bgp-augments:IPV6_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290331981760,
+  "time": "2023-04-24T09:08:10.33198176Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/supported-capabilities",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/supported-capabilities": {
+          "element": [
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:MPBGP"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:ROUTE_REFRESH"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:ASN32"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:GRACEFUL_RESTART"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "arista-bgp-augments:IPV6_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/state",
+  "updates": [
+    {
+      "Path": "prefixes/best-ecmp-paths",
+      "values": {
+        "prefixes/best-ecmp-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/best-paths",
+      "values": {
+        "prefixes/best-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/installed",
+      "values": {
+        "prefixes/installed": 0
+      }
+    },
+    {
+      "Path": "prefixes/received",
+      "values": {
+        "prefixes/received": 0
+      }
+    },
+    {
+      "Path": "prefixes/received-pre-policy",
+      "values": {
+        "prefixes/received-pre-policy": 0
+      }
+    },
+    {
+      "Path": "prefixes/sent",
+      "values": {
+        "prefixes/sent": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "openconfig-bgp-types:IPV4_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290342695874,
+  "time": "2023-04-24T09:08:10.342695874Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/transport/state/local-port",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state/local-port": 179
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "arista-bgp-augments:IPV6_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "openconfig-bgp-types:IPV4_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/transport/state/remote-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state/remote-address": "10.0.0.4"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/graceful-restart/state",
+  "updates": [
+    {
+      "Path": "advertised",
+      "values": {
+        "advertised": false
+      }
+    },
+    {
+      "Path": "received",
+      "values": {
+        "received": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/config/peer-as",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/config/peer-as": 65003
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290342695874,
+  "time": "2023-04-24T09:08:10.342695874Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/transport/state/remote-port",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state/remote-port": 41369
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit-received/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944860776,
+  "time": "2023-04-24T09:08:02.944860776Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/config/neighbor-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/config/neighbor-address": "10.0.0.4"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/ebgp-multihop/config/multihop-ttl",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/ebgp-multihop/config/multihop-ttl": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/ebgp-multihop/state/multihop-ttl",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/ebgp-multihop/state/multihop-ttl": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290342695874,
+  "time": "2023-04-24T09:08:10.342695874Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/session-state",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/session-state": "ESTABLISHED"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290342695874,
+  "time": "2023-04-24T09:08:10.342695874Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/timers/state/negotiated-hold-time",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/timers/state/negotiated-hold-time": 180
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944860776,
+  "time": "2023-04-24T09:08:02.944860776Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/neighbor-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/neighbor-address": "10.0.0.4"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/prefix-limit/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 256000
+      }
+    },
+    {
+      "Path": "prevent-teardown",
+      "values": {
+        "prevent-teardown": false
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 80
+      }
+    },
+    {
+      "Path": "warning-threshold-type",
+      "values": {
+        "warning-threshold-type": "PERCENTAGE"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "openconfig-bgp-types:IPV4_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/best-ecmp-paths",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/best-ecmp-paths": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290342695874,
+  "time": "2023-04-24T09:08:10.342695874Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/established-transitions",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/established-transitions": 1
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit-received/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit-received/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327292337053668,
+  "time": "2023-04-24T09:08:12.337053668Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/best-paths",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/best-paths": 2
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290342674050,
+  "time": "2023-04-24T09:08:10.34267405Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/last-established",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/last-established": 1682327289411884800
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327297338184479,
+  "time": "2023-04-24T09:08:17.338184479Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state",
+  "updates": [
+    {
+      "Path": "prefixes/installed",
+      "values": {
+        "prefixes/installed": 4
+      }
+    },
+    {
+      "Path": "prefixes/received",
+      "values": {
+        "prefixes/received": 4
+      }
+    },
+    {
+      "Path": "prefixes/received-pre-policy",
+      "values": {
+        "prefixes/received-pre-policy": 4
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/last-prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/last-prefix-limit-exceeded": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit-received/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327297338184479,
+  "time": "2023-04-24T09:08:17.338184479Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/messages/received/UPDATE",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/messages/received/UPDATE": 3
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327292337053668,
+  "time": "2023-04-24T09:08:12.337053668Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/messages/sent/UPDATE",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/messages/sent/UPDATE": 3
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327297338184479,
+  "time": "2023-04-24T09:08:17.338184479Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/messages/received/UPDATE",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/messages/received/UPDATE": 3
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290640686204,
+  "time": "2023-04-24T09:08:10.640686204Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/transport/state/remote-port",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state/remote-port": 179
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944860776,
+  "time": "2023-04-24T09:08:02.944860776Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/neighbor-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/neighbor-address": "10.0.0.4"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327292337053668,
+  "time": "2023-04-24T09:08:12.337053668Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/messages/sent/UPDATE",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/messages/sent/UPDATE": 4
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290342695874,
+  "time": "2023-04-24T09:08:10.342695874Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/neighbor-port",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/neighbor-port": 41369
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "openconfig-bgp-types:L2VPN_EVPN"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/config/peer-as",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/config/peer-as": 65002
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/ebgp-multihop/config/multihop-ttl",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/ebgp-multihop/config/multihop-ttl": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state",
+  "updates": [
+    {
+      "Path": "peer-as",
+      "values": {
+        "peer-as": 65002
+      }
+    },
+    {
+      "Path": "peer-type",
+      "values": {
+        "peer-type": "EXTERNAL"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit-received/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/ebgp-multihop/state/multihop-ttl",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/ebgp-multihop/state/multihop-ttl": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/state",
+  "updates": [
+    {
+      "Path": "prefixes/best-ecmp-paths",
+      "values": {
+        "prefixes/best-ecmp-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/best-paths",
+      "values": {
+        "prefixes/best-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/installed",
+      "values": {
+        "prefixes/installed": 0
+      }
+    },
+    {
+      "Path": "prefixes/received",
+      "values": {
+        "prefixes/received": 0
+      }
+    },
+    {
+      "Path": "prefixes/received-pre-policy",
+      "values": {
+        "prefixes/received-pre-policy": 0
+      }
+    },
+    {
+      "Path": "prefixes/sent",
+      "values": {
+        "prefixes/sent": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "openconfig-bgp-types:IPV6_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290640664891,
+  "time": "2023-04-24T09:08:10.640664891Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/session-state",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/session-state": "ESTABLISHED"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944860776,
+  "time": "2023-04-24T09:08:02.944860776Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/neighbor-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/neighbor-address": "10.0.0.1"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "arista-bgp-augments:IPV4_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "openconfig-bgp-types:IPV6_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290640657636,
+  "time": "2023-04-24T09:08:10.640657636Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/supported-capabilities",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/supported-capabilities": {
+          "element": [
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:MPBGP"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:ROUTE_REFRESH"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:ASN32"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:GRACEFUL_RESTART"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/graceful-restart/state",
+  "updates": [
+    {
+      "Path": "advertised",
+      "values": {
+        "advertised": false
+      }
+    },
+    {
+      "Path": "received",
+      "values": {
+        "received": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290640580186,
+  "time": "2023-04-24T09:08:10.640580186Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/timers/state/negotiated-hold-time",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/timers/state/negotiated-hold-time": 180
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290640686204,
+  "time": "2023-04-24T09:08:10.640686204Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/established-transitions",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/established-transitions": 1
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290640686204,
+  "time": "2023-04-24T09:08:10.640686204Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/transport/state/local-port",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state/local-port": 43659
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327290640674814,
+  "time": "2023-04-24T09:08:10.640674814Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/last-established",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/last-established": 1682327290411884800
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "arista-bgp-augments:IPV4_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/transport/state/remote-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state/remote-address": "10.0.0.1"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/prefix-limit/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 256000
+      }
+    },
+    {
+      "Path": "prevent-teardown",
+      "values": {
+        "prevent-teardown": false
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 80
+      }
+    },
+    {
+      "Path": "warning-threshold-type",
+      "values": {
+        "warning-threshold-type": "PERCENTAGE"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state",
+  "updates": [
+    {
+      "Path": "queues/input",
+      "values": {
+        "queues/input": 0
+      }
+    },
+    {
+      "Path": "queues/output",
+      "values": {
+        "queues/output": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/last-prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/last-prefix-limit-exceeded": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "arista-bgp-augments:IPV4_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "arista-bgp-augments:IPV6_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "arista-bgp-augments:IPV6_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944860776,
+  "time": "2023-04-24T09:08:02.944860776Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/neighbor-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/neighbor-address": "10.0.0.1"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944860776,
+  "time": "2023-04-24T09:08:02.944860776Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/config/neighbor-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/config/neighbor-address": "10.0.0.1"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit-received/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "arista-bgp-augments:IPV6_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327759",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+
+received signal 'interrupt'. terminating...
+
+
+#########################3
+
+
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282949023011,
+  "time": "2023-04-24T09:08:02.949023011Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/global/state/as",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/global/state/as": 65001
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327287337514114,
+  "time": "2023-04-24T09:08:07.337514114Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/global/state/router-id",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/global/state/router-id": "1.1.1.1"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "openconfig-bgp-types:IPV4_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282949023011,
+  "time": "2023-04-24T09:08:02.949023011Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/global/config",
+  "updates": [
+    {
+      "Path": "as",
+      "values": {
+        "as": 65001
+      }
+    },
+    {
+      "Path": "router-id",
+      "values": {
+        "router-id": "1.1.1.1"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "openconfig-bgp-types:IPV4_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/graceful-restart/state",
+  "updates": [
+    {
+      "Path": "advertised",
+      "values": {
+        "advertised": false
+      }
+    },
+    {
+      "Path": "received",
+      "values": {
+        "received": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit-received/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit-received/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit-received/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "openconfig-bgp-types:IPV4_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/best-ecmp-paths",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/best-ecmp-paths": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327292337053668,
+  "time": "2023-04-24T09:08:12.337053668Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/best-paths",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/best-paths": 3
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327297338184479,
+  "time": "2023-04-24T09:08:17.338184479Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state",
+  "updates": [
+    {
+      "Path": "prefixes/installed",
+      "values": {
+        "prefixes/installed": 4
+      }
+    },
+    {
+      "Path": "prefixes/received",
+      "values": {
+        "prefixes/received": 4
+      }
+    },
+    {
+      "Path": "prefixes/received-pre-policy",
+      "values": {
+        "prefixes/received-pre-policy": 4
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327292337053668,
+  "time": "2023-04-24T09:08:12.337053668Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/sent",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/sent": 4
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944860776,
+  "time": "2023-04-24T09:08:02.944860776Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/neighbor-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/neighbor-address": "10.0.0.1"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "openconfig-bgp-types:IPV6_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "openconfig-bgp-types:IPV6_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/graceful-restart/state",
+  "updates": [
+    {
+      "Path": "advertised",
+      "values": {
+        "advertised": false
+      }
+    },
+    {
+      "Path": "received",
+      "values": {
+        "received": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit-received/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "arista-bgp-augments:IPV4_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit-received/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "arista-bgp-augments:IPV6_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit-received/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "arista-bgp-augments:IPV6_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "openconfig-bgp-types:IPV6_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "arista-bgp-augments:IPV6_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/state",
+  "updates": [
+    {
+      "Path": "prefixes/best-ecmp-paths",
+      "values": {
+        "prefixes/best-ecmp-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/best-paths",
+      "values": {
+        "prefixes/best-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/installed",
+      "values": {
+        "prefixes/installed": 0
+      }
+    },
+    {
+      "Path": "prefixes/received",
+      "values": {
+        "prefixes/received": 0
+      }
+    },
+    {
+      "Path": "prefixes/received-pre-policy",
+      "values": {
+        "prefixes/received-pre-policy": 0
+      }
+    },
+    {
+      "Path": "prefixes/sent",
+      "values": {
+        "prefixes/sent": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944860776,
+  "time": "2023-04-24T09:08:02.944860776Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/config/neighbor-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/config/neighbor-address": "10.0.0.1"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "openconfig-bgp-types:L2VPN_EVPN"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/config/peer-as",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/config/peer-as": 65002
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "openconfig-bgp-types:L2VPN_EVPN"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/ebgp-multihop/config/multihop-ttl",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/ebgp-multihop/config/multihop-ttl": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/graceful-restart/state",
+  "updates": [
+    {
+      "Path": "advertised",
+      "values": {
+        "advertised": false
+      }
+    },
+    {
+      "Path": "received",
+      "values": {
+        "received": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/ebgp-multihop/state/multihop-ttl",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/ebgp-multihop/state/multihop-ttl": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "openconfig-bgp-types:L2VPN_EVPN"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "arista-bgp-augments:IPV4_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "arista-bgp-augments:IPV4_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/state",
+  "updates": [
+    {
+      "Path": "prefixes/best-ecmp-paths",
+      "values": {
+        "prefixes/best-ecmp-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/best-paths",
+      "values": {
+        "prefixes/best-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/installed",
+      "values": {
+        "prefixes/installed": 0
+      }
+    },
+    {
+      "Path": "prefixes/received",
+      "values": {
+        "prefixes/received": 0
+      }
+    },
+    {
+      "Path": "prefixes/received-pre-policy",
+      "values": {
+        "prefixes/received-pre-policy": 0
+      }
+    },
+    {
+      "Path": "prefixes/sent",
+      "values": {
+        "prefixes/sent": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "openconfig-bgp-types:IPV4_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/transport/state/remote-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state/remote-address": "10.0.0.1"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290640686204,
+  "time": "2023-04-24T09:08:10.640686204Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/transport/state/remote-port",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state/remote-port": 179
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944497239,
+  "time": "2023-04-24T09:08:02.944497239Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/prefix-limit/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 256000
+      }
+    },
+    {
+      "Path": "prevent-teardown",
+      "values": {
+        "prevent-teardown": false
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 80
+      }
+    },
+    {
+      "Path": "warning-threshold-type",
+      "values": {
+        "warning-threshold-type": "PERCENTAGE"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "openconfig-bgp-types:IPV6_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290640686204,
+  "time": "2023-04-24T09:08:10.640686204Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/established-transitions",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/established-transitions": 1
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "openconfig-bgp-types:IPV6_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290640674814,
+  "time": "2023-04-24T09:08:10.640674814Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/last-established",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/last-established": 1682327290411884800
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/graceful-restart/state",
+  "updates": [
+    {
+      "Path": "advertised",
+      "values": {
+        "advertised": false
+      }
+    },
+    {
+      "Path": "received",
+      "values": {
+        "received": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/last-prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/last-prefix-limit-exceeded": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327297338184479,
+  "time": "2023-04-24T09:08:17.338184479Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/messages/received/UPDATE",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/messages/received/UPDATE": 3
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327292337053668,
+  "time": "2023-04-24T09:08:12.337053668Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/messages/sent/UPDATE",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/messages/sent/UPDATE": 4
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944860776,
+  "time": "2023-04-24T09:08:02.944860776Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/neighbor-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/neighbor-address": "10.0.0.1"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653478092,
+  "time": "2023-04-24T09:08:03.653478092Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state",
+  "updates": [
+    {
+      "Path": "peer-as",
+      "values": {
+        "peer-as": 65002
+      }
+    },
+    {
+      "Path": "peer-type",
+      "values": {
+        "peer-type": "EXTERNAL"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290640664891,
+  "time": "2023-04-24T09:08:10.640664891Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/session-state",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/session-state": "ESTABLISHED"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit-received/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit-received/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/ipv6-unicast/prefix-limit-received/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv6-unicast/prefix-limit-received/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290640657636,
+  "time": "2023-04-24T09:08:10.640657636Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state/supported-capabilities",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/supported-capabilities": {
+          "element": [
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:MPBGP"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:ROUTE_REFRESH"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:ASN32"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:GRACEFUL_RESTART"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290640580186,
+  "time": "2023-04-24T09:08:10.640580186Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/timers/state/negotiated-hold-time",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/timers/state/negotiated-hold-time": 180
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "openconfig-bgp-types:IPV6_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290640686204,
+  "time": "2023-04-24T09:08:10.640686204Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/transport/state/local-port",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state/local-port": 43659
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/graceful-restart/state",
+  "updates": [
+    {
+      "Path": "advertised",
+      "values": {
+        "advertised": false
+      }
+    },
+    {
+      "Path": "received",
+      "values": {
+        "received": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "openconfig-bgp-types:IPV4_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state",
+  "updates": [
+    {
+      "Path": "queues/input",
+      "values": {
+        "queues/input": 0
+      }
+    },
+    {
+      "Path": "queues/output",
+      "values": {
+        "queues/output": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/graceful-restart/state",
+  "updates": [
+    {
+      "Path": "advertised",
+      "values": {
+        "advertised": false
+      }
+    },
+    {
+      "Path": "received",
+      "values": {
+        "received": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "openconfig-bgp-types:L2VPN_EVPN"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/state",
+  "updates": [
+    {
+      "Path": "prefixes/best-ecmp-paths",
+      "values": {
+        "prefixes/best-ecmp-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/best-paths",
+      "values": {
+        "prefixes/best-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/installed",
+      "values": {
+        "prefixes/installed": 0
+      }
+    },
+    {
+      "Path": "prefixes/received",
+      "values": {
+        "prefixes/received": 0
+      }
+    },
+    {
+      "Path": "prefixes/received-pre-policy",
+      "values": {
+        "prefixes/received-pre-policy": 0
+      }
+    },
+    {
+      "Path": "prefixes/sent",
+      "values": {
+        "prefixes/sent": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 0
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "arista-bgp-augments:IPV4_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/state/max-prefixes",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit-received/state/max-prefixes": 0
+      }
+    }
+  ]
+}
+
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "arista-bgp-augments:IPV4_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "arista-bgp-augments:IPV6_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/state/prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit-received/state/prefix-limit-exceeded": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944860776,
+  "time": "2023-04-24T09:08:02.944860776Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/config/neighbor-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/config/neighbor-address": "10.0.0.4"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/config/peer-as",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/config/peer-as": 65003
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/ipv4-unicast/prefix-limit-received/state/warning-threshold-pct",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/ipv4-unicast/prefix-limit-received/state/warning-threshold-pct": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_MULTICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "arista-bgp-augments:IPV4_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/ebgp-multihop/config/multihop-ttl",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/ebgp-multihop/config/multihop-ttl": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/active",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/active": false
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/ebgp-multihop/state/multihop-ttl",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/ebgp-multihop/state/multihop-ttl": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "arista-bgp-augments:IPV6_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944860776,
+  "time": "2023-04-24T09:08:02.944860776Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/neighbor-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/neighbor-address": "10.0.0.4"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/prefix-limit/config",
+  "updates": [
+    {
+      "Path": "max-prefixes",
+      "values": {
+        "max-prefixes": 256000
+      }
+    },
+    {
+      "Path": "prevent-teardown",
+      "values": {
+        "prevent-teardown": false
+      }
+    },
+    {
+      "Path": "warning-threshold-pct",
+      "values": {
+        "warning-threshold-pct": 80
+      }
+    },
+    {
+      "Path": "warning-threshold-type",
+      "values": {
+        "warning-threshold-type": "PERCENTAGE"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_MULTICAST]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "arista-bgp-augments:IPV6_MULTICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV6_UNICAST]/state",
+  "updates": [
+    {
+      "Path": "prefixes/best-ecmp-paths",
+      "values": {
+        "prefixes/best-ecmp-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/best-paths",
+      "values": {
+        "prefixes/best-paths": 0
+      }
+    },
+    {
+      "Path": "prefixes/installed",
+      "values": {
+        "prefixes/installed": 0
+      }
+    },
+    {
+      "Path": "prefixes/received",
+      "values": {
+        "prefixes/received": 0
+      }
+    },
+    {
+      "Path": "prefixes/received-pre-policy",
+      "values": {
+        "prefixes/received-pre-policy": 0
+      }
+    },
+    {
+      "Path": "prefixes/sent",
+      "values": {
+        "prefixes/sent": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/afi-safi-name": "openconfig-bgp-types:IPV4_UNICAST"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290342695874,
+  "time": "2023-04-24T09:08:10.342695874Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/established-transitions",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/established-transitions": 1
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/best-ecmp-paths",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/best-ecmp-paths": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/transport/state/remote-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state/remote-address": "10.0.0.4"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290342695874,
+  "time": "2023-04-24T09:08:10.342695874Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/transport/state/local-port",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state/local-port": 179
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290342695874,
+  "time": "2023-04-24T09:08:10.342695874Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/transport/state/remote-port",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/transport/state/remote-port": 41369
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327292337053668,
+  "time": "2023-04-24T09:08:12.337053668Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/best-paths",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/best-paths": 2
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290342674050,
+  "time": "2023-04-24T09:08:10.34267405Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/last-established",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/last-established": 1682327289411884800
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327297338184479,
+  "time": "2023-04-24T09:08:17.338184479Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state",
+  "updates": [
+    {
+      "Path": "prefixes/installed",
+      "values": {
+        "prefixes/installed": 4
+      }
+    },
+    {
+      "Path": "prefixes/received",
+      "values": {
+        "prefixes/received": 4
+      }
+    },
+    {
+      "Path": "prefixes/received-pre-policy",
+      "values": {
+        "prefixes/received-pre-policy": 4
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327292337053668,
+  "time": "2023-04-24T09:08:12.337053668Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/sent",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/sent": 5
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state",
+  "updates": [
+    {
+      "Path": "peer-as",
+      "values": {
+        "peer-as": 65003
+      }
+    },
+    {
+      "Path": "peer-type",
+      "values": {
+        "peer-type": "EXTERNAL"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/afi-safi-name": "openconfig-bgp-types:L2VPN_EVPN"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290342695874,
+  "time": "2023-04-24T09:08:10.342695874Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/session-state",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/session-state": "ESTABLISHED"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283653740963,
+  "time": "2023-04-24T09:08:03.653740963Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/last-prefix-limit-exceeded",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/last-prefix-limit-exceeded": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282947075826,
+  "time": "2023-04-24T09:08:02.947075826Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=L2VPN_EVPN]/config/afi-safi-name",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/config/afi-safi-name": "openconfig-bgp-types:L2VPN_EVPN"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327292337053668,
+  "time": "2023-04-24T09:08:12.337053668Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/messages/sent/UPDATE",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/messages/sent/UPDATE": 3
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290331981760,
+  "time": "2023-04-24T09:08:10.33198176Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/supported-capabilities",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/supported-capabilities": {
+          "element": [
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:MPBGP"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:ROUTE_REFRESH"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:ASN32"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:GRACEFUL_RESTART"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327297338184479,
+  "time": "2023-04-24T09:08:17.338184479Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/messages/received/UPDATE",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/messages/received/UPDATE": 3
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327283666127075,
+  "time": "2023-04-24T09:08:03.666127075Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state",
+  "updates": [
+    {
+      "Path": "queues/input",
+      "values": {
+        "queues/input": 0
+      }
+    },
+    {
+      "Path": "queues/output",
+      "values": {
+        "queues/output": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327282944860776,
+  "time": "2023-04-24T09:08:02.944860776Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/neighbor-address",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/neighbor-address": "10.0.0.4"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290342695874,
+  "time": "2023-04-24T09:08:10.342695874Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/timers/state/negotiated-hold-time",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/timers/state/negotiated-hold-time": 180
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327290342695874,
+  "time": "2023-04-24T09:08:10.342695874Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/neighbor-port",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/neighbor-port": 41369
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327806656883937,
+  "time": "2023-04-24T09:16:46.656883937Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state",
+  "updates": [
+    {
+      "Path": "supported-capabilities",
+      "values": {
+        "supported-capabilities": {
+          "element": [
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:ROUTE_REFRESH"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:ASN32"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:GRACEFUL_RESTART"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Path": "supported-capabilities",
+      "values": {
+        "supported-capabilities": {
+          "element": [
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:ASN32"
+              }
+            },
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:GRACEFUL_RESTART"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Path": "supported-capabilities",
+      "values": {
+        "supported-capabilities": {
+          "element": [
+            {
+              "Value": {
+                "StringVal": "openconfig-bgp-types:GRACEFUL_RESTART"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327806656827380,
+  "time": "2023-04-24T09:16:46.65682738Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state",
+  "updates": [
+    {
+      "Path": "messages/sent/last-notification-time",
+      "values": {
+        "messages/sent/last-notification-time": 1682327806411884544
+      }
+    },
+    {
+      "Path": "messages/sent/last-notification-error-code",
+      "values": {
+        "messages/sent/last-notification-error-code": "openconfig-bgp-types:CEASE"
+      }
+    },
+    {
+      "Path": "messages/sent/last-notification-error-subcode",
+      "values": {
+        "messages/sent/last-notification-error-subcode": "openconfig-bgp-types:OTHER_CONFIG_CHANGE"
+      }
+    }
+  ],
+  "deletes": [
+    "messages/received/last-notification-time",
+    "messages/received/last-notification-error-code",
+    "messages/received/last-notification-error-subcode"
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327806656843297,
+  "time": "2023-04-24T09:16:46.656843297Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state",
+  "updates": [
+    {
+      "Path": "messages/sent/last-notification-time",
+      "values": {
+        "messages/sent/last-notification-time": 1682327806411884800
+      }
+    }
+  ],
+  "deletes": [
+    "messages/received/last-notification-time",
+    "messages/received/last-notification-error-code",
+    "messages/received/last-notification-error-subcode"
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327806656851314,
+  "time": "2023-04-24T09:16:46.656851314Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/session-state",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/session-state": "IDLE"
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327806656851314,
+  "time": "2023-04-24T09:16:46.656851314Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/timers/state",
+  "deletes": [
+    "negotiated-hold-time",
+    ""
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327806656851314,
+  "time": "2023-04-24T09:16:46.656851314Z",
+  "deletes": [
+    "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/timers"
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327806656868030,
+  "time": "2023-04-24T09:16:46.65686803Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/last-established",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/last-established": 1682327806411884800
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327806656874118,
+  "time": "2023-04-24T09:16:46.656874118Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/transport/state",
+  "updates": [
+    {
+      "Path": "remote-port",
+      "values": {
+        "remote-port": 0
+      }
+    }
+  ],
+  "deletes": [
+    "local-port"
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327806656874118,
+  "time": "2023-04-24T09:16:46.656874118Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state/neighbor-port",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state/neighbor-port": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327806656874118,
+  "time": "2023-04-24T09:16:46.656874118Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/timers/state",
+  "deletes": [
+    "negotiated-hold-time",
+    ""
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327806656874118,
+  "time": "2023-04-24T09:16:46.656874118Z",
+  "deletes": [
+    "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/timers"
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327807347761228,
+  "time": "2023-04-24T09:16:47.347761228Z",
+  "updates": [
+    {
+      "Path": "network-instances/network-instance[name=default]/protocols/protocol[name=BGP][identifier=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state/prefixes/sent",
+      "values": {
+        "network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/afi-safis/afi-safi/state/prefixes/sent": 0
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327807347761228,
+  "time": "2023-04-24T09:16:47.347761228Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.4]/state",
+  "updates": [
+    {
+      "Path": "messages/sent/NOTIFICATION",
+      "values": {
+        "messages/sent/NOTIFICATION": 1
+      }
+    }
+  ],
+  "deletes": [
+    "messages/received/NOTIFICATION"
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327807347761228,
+  "time": "2023-04-24T09:16:47.347761228Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/afi-safis/afi-safi[afi-safi-name=IPV4_UNICAST]/state",
+  "updates": [
+    {
+      "Path": "prefixes/sent",
+      "values": {
+        "prefixes/sent": 2
+      }
+    },
+    {
+      "Path": "prefixes/best-paths",
+      "values": {
+        "prefixes/best-paths": 4
+      }
+    }
+  ]
+}
+{
+  "source": "localhost:6031",
+  "subscription-name": "default-1682327791",
+  "timestamp": 1682327807347761228,
+  "time": "2023-04-24T09:16:47.347761228Z",
+  "prefix": "network-instances/network-instance[name=default]/protocols/protocol[identifier=BGP][name=BGP]/bgp/neighbors/neighbor[neighbor-address=10.0.0.1]/state",
+  "updates": [
+    {
+      "Path": "messages/sent/UPDATE",
+      "values": {
+        "messages/sent/UPDATE": 6
+      }
+    }
+  ],
+  "deletes": [
+    "messages/received/NOTIFICATION",
+    "messages/sent/NOTIFICATION"
+  ]
+}
+
+received signal 'interrupt'. terminating...
