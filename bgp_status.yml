@@ -1,0 +1,17 @@
+---
+- name: Port State Event from Arista
+
+  hosts: all
+  sources:
+   - ansible.eda.kafka:
+       host: broker
+       port: 9092
+       topic: network
+
+  rules:
+
+   - name: bgp idle neighbor detected
+     condition: event.fields is search("IDLE", ignore_case=false)
+     actions:
+        - run_playbook:
+            name: configure.yaml
