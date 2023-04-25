@@ -1,6 +1,6 @@
 [allowlist]
-  description = "allow list for demo"
-  paths = [
-    "mattermost_conf/config.json"
-    "mattermost_conf/config_docker.json"
-  ]
+description = "allow list for demo"
+paths = [
+ "mattermost_conf/config.json",
+ "mattermost_conf/config_docker.json"
+]
