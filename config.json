@@ -92,7 +92,7 @@
         "PostPriority": true,
         "EnableAPIChannelDeletion": false,
         "EnableLocalMode": true,
-        "LocalModeSocketLocation": "/var/tmp/mattermost_local.socket",
+        "LocalModeSocketLocation": "/tmp/mattermost_local.socket",
         "EnableAWSMetering": false,
         "SplitKey": "",
         "FeatureFlagSyncIntervalSeconds": 30,
