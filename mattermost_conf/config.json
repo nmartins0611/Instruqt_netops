@@ -1,6 +1,6 @@
 {
     "ServiceSettings": {
-        "SiteURL": "",
+        "SiteURL": "http://podman-host",
         "WebsocketURL": "",
         "LicenseFileLocation": "",
         "ListenAddress": ":8065",
@@ -136,8 +136,8 @@
         "IosMinVersion": ""
     },
     "SqlSettings": {
-        "DriverName": "postgres",
-        "DataSource": "postgres://mmuser:mostest@localhost/mattermost_test?sslmode=disable\u0026connect_timeout=10\u0026binary_parameters=yes",
+        "DriverName": "mysql",
+        "DataSource": "mmuser:mmuser-password@tcp(localhost:3306)/mattermost?charset=utf8mb4,utf8\u0026writeTimeout=30s",
         "DataSourceReplicas": [],
         "DataSourceSearchReplicas": [],
         "MaxIdleConns": 20,
@@ -145,7 +145,7 @@
         "ConnMaxIdleTimeMilliseconds": 300000,
         "MaxOpenConns": 300,
         "Trace": false,
-        "AtRestEncryptKey": "akw64gyptssutimsaaxswqb166eqjyz9",
+        "AtRestEncryptKey": "e17966nyc8w3i65ps4jtt7qq9jb1qjmq",
         "QueryTimeout": 30,
         "DisableDatabaseSearch": false,
         "MigrationsStatementTimeoutSeconds": 100000,
@@ -206,7 +206,7 @@
         "EnablePublicLink": false,
         "ExtractContent": true,
         "ArchiveRecursion": false,
-        "PublicLinkSalt": "z7ghaoipuqz3h36tmzajkjooe1whabye",
+        "PublicLinkSalt": "ggq1kemr8qsctsy3cyxhetytpxtwbiej",
         "InitialFont": "nunito-bold.ttf",
         "AmazonS3AccessKeyId": "",
         "AmazonS3SecretAccessKey": "",
@@ -545,7 +545,11 @@
         "EnableHealthCheck": true,
         "Directory": "./plugins",
         "ClientDirectory": "./client/plugins",
-        "Plugins": {},
+        "Plugins": {
+            "playbooks": {
+                "BotUserID": "hz4ubhdrhfbdzx6umrwgiq3yuh"
+            }
+        },
         "PluginStates": {
             "com.mattermost.apps": {
                 "Enable": true
@@ -599,4 +603,3 @@
         "Directory": "./export",
         "RetentionDays": 30
     }
-}
