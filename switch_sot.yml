@@ -1,5 +1,6 @@
 my_sot:
     - name: Ethernet1
+      description: "Configured by Ansible"
       mode: access
       access:
         vlan: 30
