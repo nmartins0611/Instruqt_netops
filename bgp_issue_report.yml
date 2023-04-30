@@ -1,0 +1,25 @@
+
+---
+- name: BGP Change Observation
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+
+    - name: Send notification message via Mattermost
+      community.general.mattermost:
+       url: http://podman-host:8065
+       api_key: 
+       attachments:
+         - text: !!!!!! ALERT !!!!!!                   
+           color: '#ff00dd'
+           title: BGP ERROR
+           fields:
+            - title: Issue
+              value: "BGP {{ ansible_eda.event.fields.session_state }} session Detected"
+              short: true
+            - title: Details
+              value: "Neighbor Address: {{ ansible_eda.event.tags.neighbor_address }} from switch {{ ansible_eda.event.name }}"
+              short: true
+      delegate_to: localhost
