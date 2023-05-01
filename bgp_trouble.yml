@@ -1,0 +1,29 @@
+--
+- name: Basic Troubleshooting BGP
+  hosts: ceos1
+  gather_facts: false
+  vars:
+   - bgp_neighbor_ceos2: 10.0.0.1
+   - bgp_neighbor_ceos3: 10.0.0.4
+
+
+  tasks:
+
+    - name: BGP Check
+      arista.eos.eos_command:
+       commands: show ip bgp summary vrf all
+      register: bgp_summary
+
+    - name: BGP Details
+      debug:
+       var: bgp_summary
+
+    - name: Basic Connectivity Test
+      arista.eos.eos_command:
+       commands: ping "{{ item }}" 
+      with_items: 
+        - 10.0.0.1 
+        - 10.0.0.4 
+      ignore_errors: true
+#      delegate_to: ceos1
+
