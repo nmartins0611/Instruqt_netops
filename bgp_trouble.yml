@@ -1,11 +1,12 @@
---
+
+---
 - name: Basic Troubleshooting BGP
   hosts: ceos1
   gather_facts: false
   vars:
-   - bgp_neighbor_ceos2: 10.0.0.1
-   - bgp_neighbor_ceos3: 10.0.0.4
-
+    switches:
+      - ping 10.0.0.1
+      - ping 10.0.0.4
 
   tasks:
 
@@ -18,12 +19,11 @@
       debug:
        var: bgp_summary
 
-    - name: Basic Connectivity Test
+    - name: Check reachability of switches
       arista.eos.eos_command:
-       commands: ping "{{ item }}" 
-      with_items: 
-        - 10.0.0.1 
-        - 10.0.0.4 
-      ignore_errors: true
-#      delegate_to: ceos1
+        commands: "{{ switches }}"
+      register: result
 
+    - name: print
+      debug:
+       msg: "{{ result }}"
