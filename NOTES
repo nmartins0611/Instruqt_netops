@@ -36,3 +36,29 @@ Failure:
 Reconnect:
 
 {"fields":{"neighbor/afi_safis/afi_safi/state/prefixes/sent":0},"name":"ceos1","tags":{"/network-instances/network-instance/protocols/protocol/name":"BGP","afi_safi_name":"IPV4_UNICAST","host":"podman-host","identifier":"BGP","name":"default","neighbor_address":"10.0.0.4","source":"localhost"},"timestamp":1681932440}
+
+
+
+   'meta': {   'endpoint': 'endpoint',
+                'headers': {   'Accept': 'application/json',
+                               'Accept_Encoding': 'gzip',
+                               'Content_Length': '361',
+                               'Content_Type': 'application/json',
+                               'Host': 'ansiblerulebook:5000',
+                               'User_Agent': 'Mattermost-Bot/1.1'},
+                'received_at': '2023-05-02T21:27:51.433476Z',
+                'source': {   'name': 'ansible.eda.webhook',
+                              'type': 'ansible.eda.webhook'},
+                'uuid': '9d1c6b7a-2818-4989-b6ad-131083fa9632'},
+    'payload': {   'channel_id': 'ra7scctd83f4iyt3ymthoj4gaa',
+                   'channel_name': 'town-square',
+                   'file_ids': '',
+                   'post_id': 'uubsgbxp4jbm8frxw3e1d8yr3o',
+                   'team_domain': 'corp-network',
+                   'team_id': 'rohura8k5pni5e1uyidpratjuw',
+                   'text': 'switch',
+                   'timestamp': 1683062871398,
+                   'token': 'mfqde7duwp8ctg1za8a981ckya',
+                   'trigger_word': 'switch',
+                   'user_id': 'ww1wgnw6o3do5j857g4bcxa3gw',
+                   'user_name': 'network-joe'}}
