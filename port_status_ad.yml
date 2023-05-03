@@ -1,0 +1,32 @@
+---
+- name: Port State Event from Arista
+
+  hosts: all
+  sources:
+   - ansible.eda.kafka:
+       host: broker
+       port: 9092
+       topic: network
+
+  rules:
+   - name: Port is down
+     condition: event.fields.admin_status == "DOWN"
+     action:
+       run_playbook:
+        name: desired_port_state.yml
+
+
+   - name: BGP change detected
+     condition: event.fields.session_state == "IDLE"
+     action:
+       run_playbook:
+        name: bgp_troubleshooting.yml
+        post_events: true
+
+   - name: Trouble shoooting finished
+     condition: event.status == "DONE"
+     action:
+        run_playbook:
+          name: bgp_status.yml
+
+
